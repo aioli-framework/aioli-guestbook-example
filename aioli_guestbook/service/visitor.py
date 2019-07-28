@@ -26,7 +26,7 @@ class VisitorService(BaseService):
         :return: Single Visit
         """
 
-        return self.db.get_one(pk=visitor_id)
+        return await self.db.get_one(pk=visitor_id)
 
     async def get_many(self, **query):
         """Return a list of zero or more Visitors
@@ -35,7 +35,7 @@ class VisitorService(BaseService):
         :return: List of Visitors
         """
 
-        return self.db.get_many(**query)
+        return await self.db.get_many(**query)
 
     async def ipaddr_location(self, remote_addr):
         """Resolve the given IP address' geographical location

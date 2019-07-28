@@ -40,7 +40,7 @@ class VisitService(BaseService):
         :return: Single Visit
         """
 
-        return self.db.get_one(pk=visit_id)
+        return await self.db.get_one(pk=visit_id)
 
     async def get_many(self, **query):
         """Return a list of zero or more Visits
@@ -49,7 +49,7 @@ class VisitService(BaseService):
         :return: List of Visits
         """
 
-        return self.db.get_many(**query)
+        return await self.db.get_many(**query)
 
     async def delete(self, visit_id, remote_addr):
         """Deletes a Visit using id after ensuring addresses matches
