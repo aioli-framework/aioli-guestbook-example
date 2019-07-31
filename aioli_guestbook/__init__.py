@@ -9,7 +9,5 @@ export = Package(
     controllers=[HttpController],
     services=[VisitService, VisitorService],
     config=ConfigSchema,
-    name="aioli_guestbook",
-    version="0.1.0",
-    description="Example guestbook Package",
+    auto_meta=True
 )
