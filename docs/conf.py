@@ -1,16 +1,16 @@
 import sys
 import os
 
+from datetime import datetime
+
 here = os.path.abspath(os.path.dirname(__file__))
 sys.path.insert(0, os.path.abspath(".."))
 
-import aioli_guestbook
+now = datetime.now()
 
 project = "Aioli Guestbook"
-copyright = "2019 Robert Wikman"
+copyright = f"{now.year} Robert Wikman"
 author = u"Robert Wikman <rbw@vault13.org>"
-
-version = aioli_guestbook.export.version
 
 extensions = [
     "sphinx.ext.autodoc",

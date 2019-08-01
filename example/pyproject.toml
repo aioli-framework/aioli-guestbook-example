@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "guesthouse_backend"
+version = "0.0.1"
+description = "Awesome Guesthouse backend"
+authors = ["Robert Wikman <rbw@vault13.org>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+aioli = "^0.4.0"
+aioli_guestbook = "^0.1.6"
+aioli_rdbms = "^0.1.4"
+aioli_openapi = "^0.1.4"
+toml = "^0.10.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

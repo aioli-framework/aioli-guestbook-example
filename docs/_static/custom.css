@@ -7,6 +7,10 @@ body {
     overflow-y: scroll !important;
 }
 
+div.document {
+    margin: 25px auto 0 auto;
+}
+
 div.viewcode-block:target {
     background-color: transparent;
 }
@@ -17,10 +21,6 @@ div.body {
 
 div.body h1 {
     font-size: 25px !important;
-}
-
-.caption {
-    /*font-style: italic;*/
 }
 
 h1.logo {
@@ -52,6 +52,14 @@ img.logo {
 
 .note {
     background-color: #fffeeb !important;
-    padding: 0 30px 10px 30px !important;
+    padding: 20px 20px 10px 30px !important;
+}
+
+.class .field-odd {
+    padding-bottom: 20px;
+}
+
+.class dt, .function dt {
+    padding-top: 3px !important;
 }
 

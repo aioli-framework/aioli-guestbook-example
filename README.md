@@ -13,7 +13,9 @@ HTTP and Service APIs.
 Examples
 ---
 
-Check out the [guesthouse app example](/example) to see how the aioli-guestbook-example Package can be imported into an Aioli Application.
+Every guesthouse needs a guestbook - right?
+
+Check out the [example directory](/example) to see how [aioli-guestbook](/aioli_guestbook) can be incorporated into an example Guesthouse Application.
 
 
 Author
