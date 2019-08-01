@@ -13,7 +13,7 @@ HTTP and Service APIs.
 Examples
 ---
 
-Every guesthouse needs a guestbook - right?
+Every guestbook needs a guesthouse, right?
 
 Check out the [example directory](/example) to see how [aioli-guestbook](/aioli_guestbook) can be incorporated into an example Guesthouse Application.
 
