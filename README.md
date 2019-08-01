@@ -1,4 +1,4 @@
-aioli-guestbook: RESTful HTTP API Example
+aioli-guestbook: RESTful HTTP API Package Example
 ===
 
 The idea with this example is to show how a CRUD-type RESTful HTTP API package can be built with the Aioli Framework.
@@ -13,7 +13,7 @@ HTTP and Service APIs.
 Examples
 ---
 
-Check out the [example directory](/examples) to see how this example can be imported into an Aioli Application.
+Check out the [guesthouse app example](/example) to see how the aioli-guestbook-example Package can be imported into an Aioli Application.
 
 
 Author
