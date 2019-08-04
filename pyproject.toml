@@ -6,6 +6,7 @@ authors = ["Robert Wikman <rbw@vault13.org>"]
 license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/aioli-framework/aioli-guestbook-example"
+keywords = ["aioli_package"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
