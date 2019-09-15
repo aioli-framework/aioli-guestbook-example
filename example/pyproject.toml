@@ -8,9 +8,9 @@ license = "MIT"
 [tool.poetry.dependencies]
 python = "^3.6"
 aioli = "^0.4.0"
-aioli_guestbook = "^0.1.6"
-aioli_rdbms = "^0.1.4"
-aioli_openapi = "^0.1.4"
+aioli-guestbook = "^0.3.0"
+aioli-rdbms = "^0.3.0"
+aioli-openapi = "^0.2.0"
 toml = "^0.10.0"
 
 [build-system]
