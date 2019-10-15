@@ -2,7 +2,7 @@ Aioli Guestbook Example
 =======================
 
 
-The idea with this example is to show how a CRUD-type RESTful HTTP API package can be
+The idea with this example is to show how a RESTful HTTP API Unit can be
 built using the `Aioli Framework <https://github.com/aioli-framework/aioli>`_.
 
 

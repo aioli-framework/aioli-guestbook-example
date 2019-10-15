@@ -105,7 +105,7 @@ class VisitService(BaseService):
                 visit["visitor"] = await self.visitor.db.get_one(**visitor)
             except NoMatchFound:
                 visit["visitor"] = await self.visitor.db.create(**visitor)
-                self.pkg.log.info(f"New visitor: {visit['visitor'].name}")
+                self.unit.log.info(f"New visitor: {visit['visitor'].name}")
 
             visit_new = await self.db.create(**visit)
             self.log.info(f"New visit: {visit_new.id}")

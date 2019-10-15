@@ -10,7 +10,7 @@ keywords = ["aioli_package"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
-aioli = "^0.5.0"
+aioli = "^0.6.0"
 aioli-rdbms = "^0.3.0"
 toml = "^0.10.0"
 maxminddb-geolite2 = "^2018.703"

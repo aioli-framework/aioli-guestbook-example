@@ -1,13 +1,13 @@
-aioli-guestbook: RESTful HTTP API Package Example
+aioli-guestbook: RESTful HTTP API Unit Example
 ===
 
-The idea with this example is to show how a CRUD-type RESTful HTTP API package can be built with the Aioli Framework.
+The idea with this example is to show how a RESTful HTTP API Unit can be built using the Aioli Framework.
 
 
 Documentation
 ---
 
-Check out the [Package Documentation](https://aioli-guestbook-example.readthedocs.io) for usage and info about the
+Check out the [Unit Documentation](https://aioli-guestbook-example.readthedocs.io) for usage and info about the
 HTTP and Service APIs.
 
 Examples

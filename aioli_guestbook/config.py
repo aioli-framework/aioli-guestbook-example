@@ -1,6 +1,6 @@
-from aioli.config import PackageConfigSchema, fields
+from aioli.config import UnitConfigSchema, fields
 
 
-class ConfigSchema(PackageConfigSchema):
+class ConfigSchema(UnitConfigSchema):
     path = fields.String(missing="/guestbook")
     visits_max = fields.Integer(required=True)
