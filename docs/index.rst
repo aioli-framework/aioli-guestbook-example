@@ -1,9 +1,8 @@
 Aioli Guestbook Example
 =======================
 
-
-The idea with this example is to show how a RESTful HTTP API Unit can be
-built using the `Aioli Framework <https://github.com/aioli-framework/aioli>`_.
+The idea with this example is to show how a simple Unit can be built using
+the `Aioli Framework <https://github.com/aioli-framework/aioli>`_.
 
 
 .. toctree::
@@ -16,7 +15,7 @@ built using the `Aioli Framework <https://github.com/aioli-framework/aioli>`_.
 
 .. toctree::
    :hidden:
-   :caption: Service APIs
+   :caption: Services
 
    services
 
